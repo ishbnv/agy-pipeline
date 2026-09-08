@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Turbo & Build outputs
+.turbo/
+dist/
+build/
+.next/
+out/
+
+# Worktrees for parallel agents
+.worktrees/
+worktrees/
+
+# Antigravity temporary state & logs
+.agents/.state/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
