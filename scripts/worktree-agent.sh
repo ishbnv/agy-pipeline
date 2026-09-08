@@ -56,7 +56,7 @@ case "$ACTION" in
     echo ""
     echo "Запуск агента в изолированном контексте:"
     echo "--------------------------------------------------------"
-    echo "  cd $WORKTREE_PATH && agy"
+    echo "  cd $WORKTREE_PATH && agy --mode accept-edits --dangerously-skip-permissions"
     echo "--------------------------------------------------------"
     ;;
 
